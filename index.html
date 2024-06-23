@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <ul>  
+                <li><a href="#home">Home</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#login">Login</a></li>
+                <li  class="cart-icon"><a href="#"><img src="./images/icons8-cart.gif" alt="Cart"></a><span id="cart-items">0</span></li>
+                <button id="cart-btn"> Open Cart</button>
+
+            </ul>
+        </nav>
+        <div class="content">
+            <div class="header">
+                <span class="shop">Shopping Cart</span>
+                <span class="item">Items</span>
+            </div>
+            <div class="main-container">
+              <div id="product-list">
+                <!-- Your product list will be dynamically added here -->
+            </div>
+            <div class="cart-popup" id="cart-popup">
+              <div class="cart-items" id="cart-items">
+                <!-- Cart items will be dynamically added here -->
+              </div>
+              <div class="cart-total" id="cart-total">
+                Total: $<span id="total-price">0</span>
+              </div>
+            </div>
+
+            </div>
+           
+
+            
+
+           
+            <form id="add-product-form">
+                <label for="product-name">Product Name:</label>
+                <input type="text" id="product-name" name="product-name" placeholder="Enter product name">
+                <label for="product-size">Size:</label>
+                <input type="text" id="product-size" name="product-size" placeholder="Enter product size">
+                <label for="product-color">Color:</label>
+                <input type="text" id="product-color" name="product-color" placeholder="Enter product color">
+                <label for="product-price">Price:</label>
+                <input type="text" id="product-price" name="product-price" placeholder="Enter product price">
+                <button id="add-btn" type="submit">Add to Cart</button>
+            </form>
+            
+
+            
+        </div>
+    </div>
+
+    <footer>
+        <ul class="footer-links">
+            <li><a href="#">Shopping Guide</a></li>
+            <li><a href="#">Help Center</a></li>
+            <li>
+                <a href="#"><img src="./images/icons8-facebook-48.png" alt="Facebook"></a>
+                <a href="#"><img src="./images/icons8-twitter-48.png" alt="Twitter"></a>
+                <a href="#"><img src="./images/icons8-instagram-48.png" alt="Instagram"></a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

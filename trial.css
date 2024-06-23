@@ -1,0 +1,122 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .header .shop {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .header .item {
+    font-size: 16px;
+    color: #555;
+  }
+  
+  #product-list {
+    margin-top: 20px;
+  }
+  
+  #product-list ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .product {
+    background: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .product .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+  }
+  
+  .product .description {
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .product .description h3 {
+    margin: 0 0 10px;
+  }
+  
+  .product .numberItems,
+  .product .price {
+    margin: 5px 0;
+    font-size: 14px;
+  }
+  
+  .button {
+    margin-top: auto;
+  }
+  
+  .button button {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .button button:hover {
+    background-color: #d32f2f;
+  }
+  
+  #add-product-form {
+    margin-top: 20px;
+  }
+  
+  #add-product-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  #add-product-form input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  #add-product-form button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  #add-product-form button:hover {
+    background-color: #388e3c;
+  }

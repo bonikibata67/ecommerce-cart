@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Baseball Glove",
+      "image": "./images/Img2.jpg",
+      "description": "sth sth",
+      "price": 1738
+    },
+    {
+      "id": "71d3",
+      "name": "sweater",
+      "image": "./images/Img3.jpg",
+      "size": "M",
+      "color": "red",
+      "price": "kshs 780"
+    },
+    {
+      "id": "8b29",
+      "name": "",
+      "image": "./images/Img6.jpg",
+      "size": "",
+      "color": "",
+      "price": ""
+    },
+    {
+      "id": "d3e9",
+      "name": "sweater",
+      "image": "./images/Img7.jpg",
+      "size": "M",
+      "color": "red",
+      "price": "kshs 780"
+    },
+    {
+      "id": "7394",
+      "name": "sweater",
+      "size": "M",
+      "color": "red",
+      "price": "kshs 780"
+    },
+    {
+      "id": "ae6d",
+      "name": "sweater",
+      "size": "M",
+      "color": "red",
+      "price": "kshs 780"
+    }
+  ]
+}
